@@ -1,0 +1,11 @@
+
+BEFORE
+
+Main
+ ├── createCharacter()
+ ├── updateCharacter()
+ (her şey Main içinde)
+
+AFTER
+
+Main → CharacterFactory → Character Nesne oluşturma işlemi mainden ayrıldı.
