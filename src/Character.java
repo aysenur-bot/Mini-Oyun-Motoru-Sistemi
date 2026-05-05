@@ -1,13 +1,12 @@
 public class Character {
-    String type;
-    int hp;
 
-    public Character(String type, int hp) {
+    protected String type;
+
+    public Character(String type) {
         this.type = type;
-        this.hp = hp;
     }
 
-    public void show() {
-        System.out.println(type + " HP: " + hp);
+    public void update() {
+        System.out.println(type + " is updating...");
     }
 }
