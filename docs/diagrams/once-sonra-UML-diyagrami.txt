@@ -9,3 +9,22 @@ Main
 AFTER
 
 Main → CharacterFactory → Character Nesne oluşturma işlemi mainden ayrıldı.
+
+Phase 2 UML diyagramı
+
+PHASE 2 UML
+
+Main
+  |
+  v
+GameFacade
+  |
+  v
+CharacterFactory
+  |
+  +------> Character
+  |
+  +------> EnemyAdapter
+              |
+              v
+    ExternalEnemySystem
